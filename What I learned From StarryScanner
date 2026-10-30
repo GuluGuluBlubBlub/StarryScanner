@@ -1,0 +1,26 @@
+For documentation of growth:
+
+1) how IPv4 addresses,TCP and UDP are written in Python when using the socket module(AF_INET,SOCK_STREAM,SOCK_DGRAM)
+
+2) basic programming logic. since I started teaching myself CyberSecurity in March,I didn't leave out networking basics,yet I left out programming logic.
+
+Example--> for port in range(1,65535): 
+                #here,I programmed print('Scanning ports...'),not realizing that it would print that 65535 times. I laughed until my stomach hurt when I realized.
+                knock=socket.socket(socket.AF_INET,socket.SOCK_STREAM) 
+                knock.settimeout(0.000001) 
+                global open_port 
+                open_port=knock.connect_ex((target_server,port))
+                
+-there were many more embarrassing mistakes,but this would be too long.
+
+3) networking mistakes and errors. I went from 0.5s->0.1 seconds,all the way to 0.000001 until I realized that ports will not be properly scanned,because the reaction time is too slow. I forgot that networking was sadly not lightning speed.
+
+4) the existence of sys,asyncio,threading(though it was scrapped due to how slow it was)
+
+5) more realistic planning. i completely didnt take into account the speed i wanted StarryScanner to take+how difficult it would be to transfer the backend to frontend,leading me to abandon APOD
+
+6) threading and asyncio. threading is switching between tasks at once,asyncio is only one thread
+
+7) how coding is supposed to be uncomfortable. i used ai yes,but only for references. (the questions i asked were atrocious)
+
+-YOU NEVER LEARN IF YOURE ALWAYS IN COMFORT
