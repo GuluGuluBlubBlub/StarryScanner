@@ -3,7 +3,7 @@ Scanning ports in space? How fun!
 
 <img width="732" height="859" alt="Screenshot_20261031_004253" src="https://github.com/user-attachments/assets/b6e13464-344e-4d7e-b063-29f169ac7b19" />
 
-(demo)
+!!!!!!!!!!DEMO LINK: https://github.com/GuluGuluBlubBlub/StarryScanner/blob/main/StarryScannerApp.py!!!!!!!!!!!!
 
 *How do I use this whimsical port scanner?*:
 
