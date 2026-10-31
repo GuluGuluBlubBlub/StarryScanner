@@ -9,7 +9,7 @@ Scanning ports in space? How fun!
 
 1)install Python 3.13.5 at https://www.python.org/downloads/release/python-3135/ 
 
-2)install the PILLOW module!:
+2)install the PILLOW module!: (FOR StarryScannerApp.py USERS ONLY. StarryScannerApp.py is recommended though!)
 
 -Windows: 
 
