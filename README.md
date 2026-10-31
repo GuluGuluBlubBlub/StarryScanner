@@ -35,3 +35,5 @@ python StarryScannerCLI.py (FOR CLI USERS)
 
 
 (this is my first actual readme,im sorry if it doesnt work..)
+
+disclaimer because im a lil nervous,i built this in 3 days,9 hours total for stardance(a hackclub event). this is my first networking project,and ai was only used as a reference. EVERYTHING IS HANDTYPED
