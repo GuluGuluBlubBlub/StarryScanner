@@ -22,7 +22,7 @@ async def scan_port(port):
 
 async def main():
     global scanned_ports
-    scanned_ports=[scan_port(port)for port in range(1,65535)] #gathers all scanned ports
+    scanned_ports=[scan_port(port)for port in range(1,65536)] #gathers all scanned ports
     await asyncio.gather(*scanned_ports) #so ports are scanned at the same time instead of one by one
     print(f'Open ports are {open_ports}') #all open ports are printed!
     print("Byebyeee") #notice how everything is in a function? try running this code,nothing happens on the terminal! this is necessary for the frontend
