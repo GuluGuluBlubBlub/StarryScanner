@@ -39,7 +39,7 @@ async def scan_port(port):
 
 async def main():
     global scanned_ports
-    scanned_ports=[scan_port(port)for port in range(1,65535)] #gathers all scanned ports
+    scanned_ports=[scan_port(port)for port in range(1,65536)] #gathers all scanned ports
     await asyncio.gather(*scanned_ports) #so ports are scanned at the same time instead of one by one
 
 asyncio.run(main()) #RUN THE CODE
